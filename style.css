@@ -1,0 +1,94 @@
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+body {
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    background-color: #1A2238;
+    margin: 0px;
+}
+
+#header {
+  text-align: center;
+  background-color: #1A2238;
+  margin: 15px 0px 15px 0px;
+}
+
+#title {
+    font-size: 36px;
+    color: #E63946;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#subtitle {
+    font-size: 22px;
+    color: #F1FAEE;
+    margin: 0;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F1FAEE;
+  padding-top: 10px;
+}
+
+img {
+  border-radius: 5%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  color: #1D3557;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+#tribute-info {
+  font-size: 14px;
+  color: #F1FAEE;
+  background-color: #1A2238;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+}
+
+#headline {
+  color: #E63946;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+#quote {
+    font-style: italic;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+#author {
+  text-align: right;
+  color: #E63946;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#info {
+  font-size: 14px;
+  color: #F1FAEE;
+}
+
+a {
+  color: #E63946;
+}
+
+a:visited {
+  color: #E63946;
+}
